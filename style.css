@@ -94,7 +94,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, #232224, rgba(6, 18, 30, 0.1), #eec245), url("../img/Foto01.jpg");
+  background-image: linear-gradient(to bottom, #232224, rgba(6, 18, 30, 0.1), #eec245), url("img/Foto01.jpg");
   left: 0;
   top: 0;
   width: 100%;

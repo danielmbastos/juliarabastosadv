@@ -236,6 +236,12 @@ i {
   margin-top: 10px;
 }
 
+.info-resumo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
 .info-resumo h2 {
   text-align: center;
   color: #161617;
@@ -245,6 +251,9 @@ i {
   padding: 60px 20px;
   margin-left: 80px;
   margin-right: 80px;
+}
+.info-resumo img {
+  max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -267,10 +276,16 @@ i {
   .info-01 {
     font-size: 1em;
   }
+  .info-resumo {
+    display: flex;
+    flex-direction: column;
+  }
   .info-resumo h2 {
     text-align: center;
     color: #161617;
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
     overflow: hidden;
     padding: 60px 20px;
   }

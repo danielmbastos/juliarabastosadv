@@ -108,7 +108,7 @@ i {
 
 .hero {
   color: #edeaef;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,8 +118,8 @@ i {
 .hero h1 {
   text-align: center;
   line-height: 150%;
-  max-width: 940px;
-  font-size: 60px;
+  max-width: 800px;
+  font-size: 40px;
 }
 .hero h2 {
   text-align: center;
